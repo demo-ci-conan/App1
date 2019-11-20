@@ -3,6 +3,8 @@
 
 #include "libB/libB.h"
 #include "libC/libC.h"
+#include "libG/libG.h"
+#include "libH/libH.h"
 
 int main() {
     std::cout << "App1: " << std::endl;
