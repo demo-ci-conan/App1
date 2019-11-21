@@ -75,7 +75,7 @@ cat search_output.json
                         }
 
                         echo("Upload packages")
-                        client.run(command: "upload ${repository} --all -r ${remoteName} --confirm  --force".toString())
+                        client.run(command: "upload '*' --all -r ${remoteName} --confirm  --force".toString())
 
                         echo("Create build info")
                         def buildInfoFilename = "${id}.json"
